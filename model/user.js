@@ -22,6 +22,11 @@ const userSchema = mongoose.Schema({
         maxlength: 9
     },
 
+    password:{
+        type: String,
+        maxlength: 10
+    },
+
     role: {
         type: Number,
         default: 0
@@ -37,4 +42,4 @@ const userSchema = mongoose.Schema({
 
 const user = mongoose.model('User', userSchema);
 
-mondule.exports={user};
+module.exports={user};

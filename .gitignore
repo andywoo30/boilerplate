@@ -1,0 +1,18 @@
+node_modules
+dev.js
+
+# node_module은 뺴주고 올리기
+
+# 확인 git status
+# Staging Area로 보낼떄 git add . 
+# 지울떄 git rm --cached (지울내용) -r
+#Git Repository (로컬)로 Commit 할때는 git commit -m"(원하는이름)"
+#GitHub 클라우드 서비스 (리모트) 에 올릴때는 
+    # 안전하게 통신 할수 있게 ssh (Secure Shell) 설정 ssh-keygen -t ed25519 -C "andywoo30@gmail.com" 설치하면 중복 필요없음
+    #키 만들어서 넣기, 그리고 GitHub에 ssh키 추가하기.
+    #GitHub로 푸시!
+
+# express 랑 mongoose 는 npm install 로 설치
+
+#nodemon 설치 npm install nodemon -D (dependencies로 설치)
+#스크립트 쓰기 "backend": "nodemon index.js"
